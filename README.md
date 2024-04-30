@@ -1,4 +1,5 @@
 **InternshipsManagementPlatform**
+
 Applicazione per la gestione dei tirocini associati alle tesi di laurea. 
 La piattaforma permette agli studenti di richiedere un tirocinio esterno o interno, controllare lo stato della richiesta, concludere il tirocinio e caricare i documenti necessari.
 La commissione tesi può scaricare a inviare la valutazione della richiesta di tirocinio, controllare lo stato del tirocinio, verbalizzare il tirocinio.
