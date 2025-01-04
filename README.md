@@ -18,7 +18,7 @@ It's simply a web CRUD platform for universities to manage students internships.
 * Maven 3.9.9+
 * MariaDB server 11.1.2+  
 
-First of all make sure your machine have the above required components. Depending on the machine os different, they can be installed in different ways.
+First of all make sure your machine have the above required components. Depending on the machine os, they can be installed in different ways.
 
 ### Installation
 
