@@ -9,5 +9,6 @@
         "/Users/diekgbbtt/Documents/Java/jdbc_basic/javafx.base.jar",
         "/Users/diekgbbtt/Documents/Java/jdbc_basic/javafx-swt.jar"
     ],
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic"
 }

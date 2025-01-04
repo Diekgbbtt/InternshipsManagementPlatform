@@ -30,7 +30,9 @@ public class ProgettoFormativo {
     @JoinColumn(name = "azienda", referencedColumnName = "NomeAzienda") */
     // private Azienda azienda;
 
-    private String  NomeTutor;
+    public String NomeAzienda;
+
+    public String NomeTutor;
 
     public String Ruolo;
 

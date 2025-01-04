@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
 public class ElaboratoFinale {
 
     @Id
-    private Long matricola;
+    private int matricola;
 
 /*     @OneToOne
     @JoinColumn(name = "matricola", referencedColumnName = "matricola" ) */

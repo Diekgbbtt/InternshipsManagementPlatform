@@ -22,28 +22,42 @@ public class Service_Studente {
     @Autowired
     public Studente studente_obj;
 
-
     public Studente getStudenteById(int id) {
-        return studente_tbl.findById(id).orElse(null);
+        Studente st_obj = new Studente();
+        st_obj = studente_tbl.findById(id).orElse(null);
+        if (st_obj == null) {
+            System.err.println("Matricola Errata");
+            return null;
+        } else
+            return st_obj;
     }
 
-    public boolean VerificaIdoneita(int id){
+    public boolean VerificaIdoneita(int id) {
 
         studente_obj = getStudenteById(id);
-        if((studente_obj.getCFU())>120 && studente_obj.getStatoCarriera().equals("Attiva")){
-            System.out.println("Studente Idoneo");
-            return true;
-        } else return false;
+        if (studente_obj != null) {
+            if ((studente_obj.getCFU()) >= 120 && studente_obj.getStatoCarriera().equals("Attiva")) {
+                System.out.println("Studente Idoneo");
+                return true;
+            } else {
+                System.out.println("Studente non Idoneo");
+                return false;
+            }
+        }
+        return false;
     }
 
-/*     /**
-     * @param matricola 
+    /*
+     * /**
+     * 
+     * @param matricola
+     * 
      * @return
      */
-/*     public boolean VerificaIdoneità(int matricola) {
-        // TODO implement here
-        return false; */
-
-
+    /*
+     * public boolean VerificaIdoneità(int matricola) {
+     * // TODO implement here
+     * return false;
+     */
 
 }

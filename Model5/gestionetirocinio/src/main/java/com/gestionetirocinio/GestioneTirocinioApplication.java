@@ -12,10 +12,10 @@ import com.gestionetirocinio.Modello.*;
 
 
 @SpringBootApplication
-
 public class GestioneTirocinioApplication {
 
     public static void main(String[] args) {
+
             SpringApplication.run(GestioneTirocinioApplication.class, args);
     }
     
